@@ -51,7 +51,8 @@ WATCHLIST = [
     # --- AI / Software / Semis (platform/growth) ---
     ("PLTR", "Palantir", ["AI/Software", "Gov/Defense"], "Sticky deployments; AI ops platform."),
     ("ASML", "ASML Holding", ["Semiconductors", "Chokepoint"], "Lithography bottleneck; AI compute scaling constraint."),
-    ("ARM", "Arm Holdings", ["Semiconductors", "Efficiency"], "Low-power compute IP; efficiency tailwind."),
+    ("QCOM", "Qualcomm", ["Semiconductors", "Edge AI", "Compute efficiency"], "Edge compute ecosystem; on-device AI + connectivity leverage."),
+    ("AVGO", "Broadcom", ["Semiconductors", "AI infrastructure", "Networking"], "AI infrastructure + networking; hyperscaler backbone."),
 
     # --- Space / Defense (optional/growth blend) ---
     ("RKLB", "Rocket Lab", ["Space/Defense", "Manufacturing"], "Vertical integration; launch + defense + satellites."),
@@ -1624,3 +1625,4 @@ st.download_button(
     file_name=f"next_tesla_monthly_report_{utc_now().strftime('%Y_%m_%d')}.pdf",
     mime="application/pdf"
 )
+
